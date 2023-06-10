@@ -1,0 +1,29 @@
+Technology to use:
+  Front-End: Tkinter from Python
+  Back-End: Python
+  
+Data Types that Humans Use
+  Integers
+  Strings
+  Chars (Not in Python)
+  
+Have a main menu GUI with the choice for user to select the dat they want to manipulate
+  Main Menu Choices:
+    Number(s)
+    Word(s)
+    Exit
+    
+ For Each Choice Made that is NOT Exit, have a 2nd GUI PopUp with Choices for the manipulation function
+   Number Functions:
+    Find Total Sum
+    Return Average
+    Return Highest Num
+    Return Lowest Num
+    ........
+    
+   Word Functions:
+    Include a Line Break Based off X number of Chars per line
+    Filter Out User Decided Keyword(s)
+    Capitalize / Title the String
+    LowerCase the String
+    .........
