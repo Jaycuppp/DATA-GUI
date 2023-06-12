@@ -8,7 +8,7 @@ Data Types that Humans Use
   Strings
   Chars (Not in Python)
   
-Have a main menu GUI with the choice for user to select the dat they want to manipulate
+Have a main menu Page with the choice for user to select the data they want to manipulate
   Main Menu Choices:
     Number(s)
     Word(s)
