@@ -14,17 +14,16 @@ Have a main menu Page with the choice for user to select the data they want to m
     Word(s)
     Exit
     
- For Each Choice Made that is NOT Exit, have a 2nd GUI PopUp with Choices for the manipulation function
-   Number Functions:
+ For Each Choice Made that is NOT Exit, have a 2nd Menu PopUp with Choices for the manipulation function
+   Number Function Menu Page:
     Find Total Sum
-    Return Average
+    Give Average
     Return Highest Num
     Return Lowest Num
     ........
     
-   Word Functions:
+   Word Function Menu Page:
     Include a Line Break Based off X number of Chars per line
     Filter Out User Decided Keyword(s)
-    Capitalize / Title the String
-    LowerCase the String
+    Capitalize / Title / Lowercase an word or entire sentence
     .........
