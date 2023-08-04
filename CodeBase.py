@@ -1,16 +1,17 @@
 from multiprocessing import Value
 from tkinter import *
+from Logical_Functions import *
 
 def Data_Gui():
-    GUI_Background_Color = "#408EC6"
-    GUI_Text_Color = "#FFE77A"
+    GUI_Background_Color = "#386150"
+    GUI_Text_Color = "#c5e384"
     
     # ReUsable Menu Button Configurations
     Menu_Button_Height = 3
     Menu_Button_Width = 15
     Menu_Button_Font = ('', 16)
-    Menu_Button_Background_Color = "#234E70"
-    Menu_Button_Text_Color = "#FBF8BE"
+    Menu_Button_Background_Color = "#679289"
+    Menu_Button_Text_Color = "#fffaca"
     
     # Tkinter Setup
     root = Tk()
@@ -32,7 +33,10 @@ def Data_Gui():
         
         Main_Menu_Greeting = Label(Words_Gui_Window, text=''' Enter Your Data Here Below''', fg=GUI_Text_Color, bg=GUI_Background_Color, font=('', 30))
         Main_Menu_Greeting.grid(row=0, column=0, padx=320, pady=100,)
-    
+        
+        UpperCase_Button = Button(Words_Gui_Window, text= "All Uppercase", command=All_Upper_Func, font=Menu_Button_Font, height=Menu_Button_Height, width=Menu_Button_Width, fg=Menu_Button_Text_Color, bg=Menu_Button_Background_Color)
+        UpperCase_Button.grid(row=1, column=0)
+        
     
     # Window for Number Data Manipulation
     def Numbers_Data_Func():
