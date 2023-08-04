@@ -1,2 +1,2 @@
 # DATA-GUI
-A GUI for Manipulating DATA
+A GUI of Menus for Manipulating DATA
